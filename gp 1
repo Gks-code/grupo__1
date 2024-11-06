@@ -1,0 +1,41 @@
+let numero=[];
+
+numero.push(10);
+console.log(numero);
+
+numero.unshift(5);
+console.log(numero);
+
+numero.shift();
+console.log(numero);
+
+numero.push(15);
+console.log(numero);
+
+numero.pop();
+console.log(numero);
+
+numero.push(20, 30, 40);
+console.log(numero);
+
+let novaArray=numero.splice(1,1)
+console.log(novaArray);
+console.log(numero);
+
+let subNumeros=numero.splice(0,2)
+console.log(subNumeros);
+console.log(numero);
+
+numero.push(10, 30)
+numero.sort();
+console.log(numero);
+
+numero.reverse();
+console.log(numero);
+
+console.log(numero.indexOf(30));
+
+console.log(numero.includes(50));
+
+numero.push(50)
+console.log(numero.includes(50));
